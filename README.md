@@ -5,10 +5,10 @@
 Networks: 'PDL', 'LIS' & 'FOR' connected to each other through Tunnel (Not Encrypted)
 
 Objective: 
-1. Full connectivity;
+1. Full connectivity (Using EIGRP Protocol);
 2. Connection between 'IP Phones' (Using VLAN's).
 
 Configurations:
-1.  [PDL]()
-2.  [LIS]()
-3.  [FOR]()
+1.  [PDL](https://github.com/LS-Melo/VoIP-Tunnel-Traffic/tree/main/PDL)
+2.  [LIS](https://github.com/LS-Melo/VoIP-Tunnel-Traffic/tree/main/LIS)
+3.  [FOR](https://github.com/LS-Melo/VoIP-Tunnel-Traffic/tree/main/FOR)
