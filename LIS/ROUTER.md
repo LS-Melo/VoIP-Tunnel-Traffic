@@ -1,3 +1,20 @@
+ip dhcp excluded-address 192.168.0.1
+
+ip dhcp excluded-address 192.168.1.1
+
+ip dhcp pool VLAN10
+ 
+     network 192.168.0.0 255.255.255.0
+     default-router 192.168.0.1
+     dns-server 8.8.8.8
+
+ip dhcp pool VLAN20
+
+    network 192.168.1.0 255.255.255.0
+    default-router 192.168.1.1
+    option 150 ip 192.168.1.1
+    dns-server 8.8.8.8
+
 interface Tunnel100
 
     ip address 10.0.0.2 255.255.255.252
